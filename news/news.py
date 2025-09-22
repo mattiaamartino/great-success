@@ -21,7 +21,7 @@ def get_financial_news():
         "language": "en",
         "sortBy": "publishedAt",
         "apiKey": API_KEY,
-        "pageSize": 50
+        "pageSize": 25
     }
 
     response = requests.get(url, params=params)
